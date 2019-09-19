@@ -1,3 +1,18 @@
 body{
+    margin:0;
     background: #eee;
+}
+.full{
+    height:100vh;
+    width:100%;
+}
+#main{
+    text-align: center;    
+}
+#mainName{
+    margin-top:50vh;
+}
+.header{
+    width:100%;
+    background-color: #000;
 }
