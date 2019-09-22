@@ -29,7 +29,8 @@ body{
     margin-top:35vh;
     background:#fff;
     height:50px;
-    font-size:30px;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
     width:auto;
     text-align:center;
     display:inline-block;
@@ -66,8 +67,9 @@ body{
     font-size:20px;
     display:table-cell;
     width:30vw;
-    
-    
+    position:relative;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 #searchform{
@@ -75,7 +77,9 @@ body{
 }
 #mainsearch{
     border-right-width: 2px;
-    border-color:#000;
+    border-right-color:#000;
+    border-left-width: 4px;
+    border-left-color:#fff;
 }
 .search:focus{
     outline:none;
@@ -84,6 +88,6 @@ body{
     height:10vh;
 }
 .searchbutton{
-    height:50px;
-    display:table-cell;
+    vertical-align: middle;
+    margin-right:10px;
 }
