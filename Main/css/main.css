@@ -129,7 +129,7 @@ body{
 
 }
 .headtext:after {
-	content:"Eat with ___";
+	content:"Eat ___";
 	animation: spin 5s linear;
 }
 @keyframes spin {
@@ -137,8 +137,8 @@ body{
     20% { content:"Eat Healthy"; }
     40% { content:"Eat Good"; }
     60% { content:"Eat Right"; }
-    80% { content:"Eat with ___"; }
-    100% { content:"Eat with ___"; }
+    80% { content:"Eat ___"; }
+    100% { content:"Eat ___"; }
     
 
 }
