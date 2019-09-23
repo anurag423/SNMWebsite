@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:900&display=swap');
 
 html{
     height:100%;
@@ -26,7 +27,7 @@ body{
 }
 
 #mainName{
-    margin-top:35vh;
+    margin-top:10vh;
     background:#fff;
     height:50px;
     font-size:20px;
@@ -34,6 +35,9 @@ body{
     width:auto;
     text-align:center;
     display:inline-block;
+    border-radius:4px;
+    
+
 }
 .header{
     width:100%;
@@ -50,10 +54,19 @@ body{
     
     display:table-cell;
     border-width: 2px;
-    height:100%;
+    height:10vh;
+    margin-right:10vw;
     width:15vw;
     text-align:center;
     vertical-align:middle;
+}
+.menu-option1{
+    padding-left:15vw;
+    
+}
+.menu-option2{
+    padding-left:15vw;
+    
 }
 .menu-text{
     vertical-align:middle;
@@ -70,16 +83,25 @@ body{
     position:relative;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 #searchform{
     height:50px;
+  
 }
 #mainsearch{
     border-right-width: 2px;
     border-right-color:#000;
     border-left-width: 4px;
     border-left-color:#fff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+#locsearch{
+    width:20vw;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 .search:focus{
     outline:none;
@@ -90,4 +112,36 @@ body{
 .searchbutton{
     vertical-align: middle;
     margin-right:10px;
+}
+.bigtext{
+    text-align:left;
+    z-index:1;
+   margin-left:35vw;
+   padding-top:10vh;
+    position:relative;
+}
+.headtext{
+    font-family: 'Lato', sans-serif;
+    font-size:80px;
+    color:#fff;
+    
+    text-align:left;
+
+}
+.headtext:after {
+	content:"Eat with ___";
+	animation: spin 5s linear;
+}
+@keyframes spin {
+	0% { content:"Eat Safe"; }
+    20% { content:"Eat Healthy"; }
+    40% { content:"Eat Good"; }
+    60% { content:"Eat Right"; }
+    80% { content:"Eat with ___"; }
+    100% { content:"Eat with ___"; }
+    
+
+}
+a{
+    text-decoration:none;
 }
