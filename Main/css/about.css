@@ -28,7 +28,9 @@ html{
     height:50vh;
     margin: auto;
     margin-top:10vh;
+    left:25vw;
     display: block;
+    position:fixed;
 }
 #abouthead{
     font-family: 'Lato', sans-serif;
