@@ -12,20 +12,20 @@
     <section class="header">
         
         <div class="menu">
-            <div class="menu-item">
-                <div id="headerLogo" class="menu-item"><a href="index.html"><img id="logo" src="img/logo.png"></a></div>
-            </div>
             <a href="index.html">
                 <div class="menu-item menu-option1">
                     <span class="menu-text">Home</span>
                 </div>
             </a>
+            <div class="menu-item">
+                <div id="headerLogo"><a href="index.html"><img id="logo" src="img/logo.png"></a></div>
+            </div>
             <a href="about.html">
                 <div class="menu-item menu-option2">
-                    <span class="menu-text">About Us</span>
+                    <span class="menu-text">About</span>
                 </div>
             </a>
-
+            
         </div>
     </section>
     <section class="full" id="main">
@@ -48,4 +48,11 @@
         </div>
     </section>
 </body>
+<script>
+    $('#main').mousemove(function(e){
+        var amountMovedX = (e.pageX * -1 / 6);
+        var amountMovedY = (e.pageY * -1 / 6);
+        $(this).css('background-position', amountMovedX + 'px ' + amountMovedY + 'px');
+    });
+</script>
 </html>
