@@ -75,7 +75,7 @@ body{
     font-family: 'Fjalla One', sans-serif;
     text-transform: uppercase;
     font-size:25px;
-    color:#000;
+    color:#335221;
     top:10px;
 }
 .search{
@@ -120,7 +120,7 @@ body{
 .bigtext{
     text-align:left;
     z-index:1;
-   margin-left:35vw;
+   margin-left:40vw;
    padding-top:10vh;
     position:relative;
 }
@@ -161,10 +161,20 @@ a{
     width:100%;
     padding-top:10vh;
     text-align: center;
+    color:#fff;
 }
 .social{
     display:inline-block;
     padding-left:10px;
     padding-right:10px;
     
+}
+#recsec{
+    text-align:center;
+
+}
+#rechead{
+    font-family:'Lato', sans-serif;
+    font-size:40px;
+    color:#335221;
 }
