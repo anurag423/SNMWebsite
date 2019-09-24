@@ -127,25 +127,44 @@ body{
 .headtext{
     font-family: 'Lato', sans-serif;
     font-size:80px;
-    color:#fff;
+    color:#DFFFCC;
     
     text-align:left;
 
 }
-.headtext:after {
+.flip{
+    color:#fff;
+}
+.flip:after {
 	content:"Eat ___";
 	animation: spin 5s linear infinite;
 }
 @keyframes spin {
-	0% { content:"Eat Safe"; }
-    20% { content:"Eat Healthy"; }
-    40% { content:"Eat Good"; }
-    60% { content:"Eat Right"; }
-    80% { content:"Eat ___"; }
-    100% { content:"Eat ___"; }
+	0% { content:" Safe"; }
+    20% { content:" Healthy"; }
+    40% { content:" Good"; }
+    60% { content:" Right"; }
+    80% { content:" ___"; }
+    100% { content:" ___"; }
     
 
 }
 a{
     text-decoration:none;
+}
+.footer{
+    background-color:#a9d092;
+    height:30vh;
+    text-align:center;
+}
+#footsocials{
+    width:100%;
+    padding-top:10vh;
+    text-align: center;
+}
+.social{
+    display:inline-block;
+    padding-left:10px;
+    padding-right:10px;
+    
 }

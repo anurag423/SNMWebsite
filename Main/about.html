@@ -7,6 +7,8 @@
     <title>About-Website</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
 </head>
 <body>
     <section class="header">
@@ -37,7 +39,18 @@
     </section> 
     <section class="full" id="team">
         <span class="abouthead">The Team</span>
-        <img src="img/aboutbg.jpg" id="imgmain">
-    </section>  
+        <div data-aos="zoom-in" data-aos-duration="1000"><img src="img/aboutbg.jpg" id="imgmain"></div>
+    </section> 
+    
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+window.addEventListener('load', function() {
+  AOS.refresh();
+});
+    </script>
 </body>
 </html>
