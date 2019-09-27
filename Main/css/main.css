@@ -49,11 +49,12 @@ body{
 .menu{
     height:100%;
     display:table-row;
+    text-align:center;
     
 }
 .menu-item{
-    
-    display:table-cell;
+    padding-top:3vh;
+    float: left;
     border-width: 2px;
     height:10vh;
   
@@ -63,11 +64,19 @@ body{
     padding-left:10vw;
     
 }
+.menu-logo{
+    padding-top:0;
+    margin-bottom:10px;
+}
 .menu-option1{
-   padding-left:15vw;
+   padding-left:17.5vw;
+}
+.menua{
+    display:block;
+    height:10vh;
 }
 .menu-option2{
-   
+   display:block
     
 }
 .menu-text{
@@ -136,18 +145,17 @@ body{
     color:#fff;
 }
 .flip:after {
-	content:"Eat ___";
-	animation: spin 5s linear infinite;
+	content:" Delect";
+    animation: spin 5s linear infinite;
+    text-shadow:0px 0px 20px #fff;
 }
 @keyframes spin {
 	0% { content:" Safe"; }
     20% { content:" Healthy"; }
     40% { content:" Good"; }
     60% { content:" Right"; }
-    80% { content:" ___"; }
-    100% { content:" ___"; }
-    
-
+    80% { content:" Delect"; }
+    100% { content:" Delect"; }
 }
 a{
     text-decoration:none;

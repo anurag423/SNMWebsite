@@ -28,7 +28,7 @@ html{
     width:100vw;
 }
 #imgmain{
-    height:50vh;
+    height:60vh;
     margin: auto;
     margin-top:10vh;
     
@@ -58,4 +58,8 @@ html{
     z-index:2;
     color:#000;
     position:relative;
+}
+.imgtext{
+    margin-top:5vh;
+    font-family:'Lato', sans-serif;
 }
