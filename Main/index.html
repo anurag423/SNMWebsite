@@ -6,6 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/9027bc6f96.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
+    <script>
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+        
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+            "<br>Longitude: " + position.coords.longitude;
+        }
+        function showPosition(position) {
+  var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+  var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=
+  "+latlon+"&zoom=14&size=400x300&sensor=false&key=YOUR_KEY";
+
+  document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+    </script>
     <title>WEBSITE</title>
 </head>
 <body>
@@ -19,7 +42,7 @@
             </div>
             
             <div class="menu-item menu-logo">
-                <div id="headerLogo"><a href="index.html"><img id="logo" src="img/logo.png"></a></div>
+                <div id="headerLogo"><a href="index.html"><img id="logo" src="img/logosm.png"></a></div>
             </div>
             
             <div class="menu-item menu-option2">
@@ -48,6 +71,8 @@
             <span id="">Newest Recommendations</span>
             
         </div>
+        <div id="demo"></div>
+        <div id="mapholder"></div>
     </section>
     <section class="footer">
         <div id="footsocials">
