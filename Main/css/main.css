@@ -162,7 +162,14 @@ a{
     text-decoration:none;
 }
 .footer{
-    background-color:#a9d092;
+    background-color: #a9d092;  
+    background-image: url("../img/bg.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
     height:30vh;
     text-align:center;
 }
@@ -204,5 +211,5 @@ a{
 
 }
 .resimg{
-
+    
 }
