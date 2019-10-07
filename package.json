@@ -1,0 +1,20 @@
+{
+  "name": "delect",
+  "version": "1.0.0",
+  "description": "Delect App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AineshSootha/SNMWebsite.git"
+  },
+  "author": "Ainesh Sootha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AineshSootha/SNMWebsite/issues"
+  },
+  "homepage": "https://github.com/AineshSootha/SNMWebsite#readme"
+}

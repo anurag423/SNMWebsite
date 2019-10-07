@@ -7,16 +7,40 @@ html{
     overflow-x: hidden;
 }
 .header{
-   background-color:#a9d092;
-   
+    background-color:#a9d092;
+    z-index:2;
+    position:relative;
 }
+
 .menu-text{
     color:#fff;
 }
-
+article{
+    z-index:1;
+}
 .full{
     height:90vh;
+    
+}
 
+
+.left {
+    left: 0;
+    height:100%;
+    width:35vw;
+    float:left;
+    overflow-x: hidden;
+    background-color:#a9d092;
+}
+
+
+.right {
+    height:100%;
+    width:65vw;
+    float:left;
+    overflow-x: hidden;
+    right: 0;
+  
 }
 #aboutmain{
     text-align: center;
@@ -28,19 +52,22 @@ html{
     width:100vw;
 }
 #imgmain{
-    height:60vh;
+    height:50vh;
     margin: auto;
-    margin-top:10vh;
+    margin-top:5vh;
     
     z-index:1;
     position:relative;
     display: block;
-  
+    
 }
 .abouthead{
     font-family: 'Lato', sans-serif;
     font-size: 80px;
-    color:#a9d092;
+    top:40%;
+    left:5%;
+    color:#fff;
+    position:absolute;
 }
 #missionhead{
     font-family:'Lato','sans-serif';
@@ -48,8 +75,9 @@ html{
     color:#a9d092;
 }
 #missioncontent{
-    text-align:left;
-    padding-left:10vw;
+    text-align:center;
+    padding-top:10vh;
+    
 }
 .big{
     font-family:'Lato', sans-serif;
@@ -62,4 +90,32 @@ html{
 .imgtext{
     margin-top:5vh;
     font-family:'Lato', sans-serif;
+}
+#mission{
+    font-family:'Lato', sans-serif;
+    font-size:30px;
+}
+#about{
+   top:30%;
+    width:50vw;
+    position:absolute;
+    padding-right:5vw;
+    display:inline-block;
+    right:0%;
+}
+.abouttext{
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+}
+.green{
+    color:#a9d092;
+}
+.dlogo{
+    height:20px;
+}
+.large{
+    height:30px;
+}
+.name{
+    font-size:30px;
 }
