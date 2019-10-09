@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/9027bc6f96.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Delect</title>
+</head>
+<body>
+    <section class="header">
+        <div class="menu">
+            
+            <div class="menu-item menu-option1">
+                <a href="index.html" class="menua">
+                    <span class="menu-text">Home</span>
+                </a>
+            </div>
+            
+            <div class="menu-item menu-logo">
+                <div id="headerLogo"><a href="index.html"><img id="logo" src="img/logosm.png"></a></div>
+            </div>
+            
+            <div class="menu-item menu-option2">
+                <a href="about.html">
+                    <span class="menu-text">About</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    <section class="full" id="main">
+        <div class="bigtext">
+            <span class="headtext">Eat <span class="flip"></span></span>
+        </div>
+        <div id="mainName">
+            <form id="searchform">
+                <input placeholder="Vegan, Vegetarian, Gluten-Free, Peanut-Free..." class="search"id="mainsearch"/>
+                <span>at</span>
+                <input placeholder="West Lafayette" class="search" id="locsearch"/>
+                <i class="fas fa-search fa-sm searchbutton"></i>
+            </form>
+        </div>
+    </section>
+    <section class="full" id="recsec">
+        <div id="rechead">
+            <span id="">Newest Recommendations</span>
+            
+        </div>
+        <div class = "rec">
+            <img class="recitem resimg" src="img/res/resimg.png">
+            <span class="recitem recname">Restaurant</span>
+            <span class="recitem recdist">0.1mi</span>
+            <span class="recitem recdesc">Lorem Ipsum Dolor Sit amet</span>
+            <span class="recitem reccontact">restaurant@restaurant.com</span>
+        </div>
+    </section>
+    <section class="empty">
+    </section>
+    <div id="contactUs">
+        <span id="">Contact Us</span>
+        <form action="https://formspree.io/delect.snm@gmail.com" method="POST" >
+            <input type="text" name="name" id="name" placeholder="First Name" class="form" />
+            <input type="text" name="last_name" id="lastname" placeholder="Last Name" class="form"/>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Email" class="form"/>
+            <br />
+            <textarea name="" id="" cols="25" rows="4" placeholder="Type your query here"class="form"></textarea>
+            <br />
+            <button type="submit" class="form">Submit</button>
+        </form>
+    </div>
+    <section class="footer">
+        <div id="footsocials">
+            <i class="fab fa-facebook fa-2x social"></i>
+            <i class="fab fa-twitter-square fa-2x social"></i>
+            <i class="fab fa-instagram fa-2x social"></i>
+        </div>
+    </section>
+
+</body>
+
+</html>
